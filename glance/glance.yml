@@ -45,6 +45,8 @@ pages:
           - type: bookmarks
             groups:
               - links:
+                  - title: Notion
+                    url: https://www.notion.so/
                   - title: Gmail
                     url: https://mail.google.com/mail/u/0/
                   - title: Amazon
