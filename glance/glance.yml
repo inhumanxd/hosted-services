@@ -87,16 +87,15 @@ pages:
     columns:
       - size: full
         widgets:
+          - type: reddit
+            subreddit: mongodb
+            limit: 20
+            collapse-after: 10
+      - size: full
+        widgets:
           - type: rss
             limit: 20
-            collapse-after: 7
-            cache: 30m
-            feeds:
-              - url: https://feeds.feedburner.com/crunchyroll/rss
-                title: crunchyroll
-          - type: rss
-            limit: 20
-            collapse-after: 7
+            collapse-after: 10
             cache: 3h
             feeds:
               - url: https://tailscale.dev/feed.xml
@@ -115,13 +114,6 @@ pages:
                 title: nadh.in
               - url: https://mitchellh.com/feed.xml
                 title: mitchellh.com
-      - size: full
-        widgets:
-          - type: reddit
-            subreddit: selfhosted
-            limit: 20
-            collapse-after: 10
-          - type: hacker-news
   - name: Videos
     columns:
       - size: full
