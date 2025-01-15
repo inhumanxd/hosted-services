@@ -19,15 +19,15 @@ pages:
             cache: 1m
             title: Services
             sites:
-              - title: adguard
-                url: http://192.168.1.10
-                icon: si:adguard
               - title: jellyfin
-                url: http://192.168.1.10:8096
+                url: http://192.168.1.120:8096
                 icon: si:jellyfin
               - title: qbittorrent
-                url: http://192.168.1.10:8080
+                url: http://192.168.1.120:8080
                 icon: si:qbittorrent
+              - title: metube
+                url: http://192.168.1.120:8082
+                icon: si:youtube
           - type: search
             search-engine: google
             bangs:
@@ -61,7 +61,7 @@ pages:
                 color: 10 70 50
                 links:
                   - title: Comick.io
-                    url: https://comick.io/home
+                    url: https://comick.io/home2
                   - title: JustWatch
                     url: https://www.justwatch.com/
                   - title: YouTube

@@ -4,8 +4,8 @@ services:
     container_name: adguard
     restart: 'unless-stopped'
     ports:
-      - 192.168.1.10:53:53/tcp
-      - 192.168.1.10:53:53/udp
+      - 192.168.1.120:53:53/tcp
+      - 192.168.1.120:53:53/udp
       - 67:67/udp
       - 68:68/udp
       - 80:80/tcp
